@@ -1,3 +1,149 @@
-.im {
-    width: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cac82d;
+}
+
+.container {
+    width: 1300px;
+    /* border: 1px solid #ffffff; */
+}
+
+.header {
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 0 -1px 5px #24293F,0 5px 8px #24293F, 0 5px 8px #24293F;
+    height: 780px;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    /* border: 1px solid #fff; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s ease-in;
+}
+
+a:hover {
+    color: #000;
+    text-shadow: 0 1px 8px #ffffff, 0 1px 8px #fff;
+}
+
+.item { display: inline-block;
+    margin: 25px 0;
+    background-color: #0258a8;
+    height: 330px;
+    width: 410px;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.naviga{
+    font-family: 'RocknRoll One', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 2px 5px #e6d819;
+}
+.item .itemInfo img {    border-radius: 40px;
+    width: 300px;
+    height:200px ;
+    padding-top:25px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+    
+}
+
+.mainTItem {
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 0 1px 8px #24293F, 0 1px 8px #24293F;
+}
+
+.secTItem {
+    font-family: 'Abel', sans-serif;
+}
+
+.itemInfo {
+    width: 400px;
+
+}
+
+.photo {
+    display: inline;
+    width: 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+.photo img {
+    height: 200px;
+}
+
+.class {
+    font-family: 'RocknRoll One', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 0 5px 5px #2b16e6;
+}
+
+/* Footer */
+
+.footer {
+    /* border: 1px solid #FFF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0d1694;
+    border-radius:  10px 10px 0 0;
+    font-family: 'RocknRoll One', sans-serif;
+    color: #ffffff;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+.nav {
+    display: flex;
+}
+
+
+.TextFon{
+    border:red 1px solid;
+    height: 100%;
+    margin-top: 30px;
+border-radius: 20px;
+background-color:#0258a8;
+color:white;
+font-size: 1.5em;
+padding: 15px 15px;
 }
